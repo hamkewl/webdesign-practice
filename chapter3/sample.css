@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.underline{
+	text-decoration: underline;
+}
+
+.h1-red{
+	color: #ff0000;
+}
+
+.h2-green{
+	color: #00ff00;
+}
+
+.h3-blue{
+	color: #0000ff;
+}
+
+.css-square{
+	color: #ffcc40;
+}
+
+.kakomi-box1{
+	margin: 2em auto;
+	padding: 1em;
+	width: 90%;
+	background-color: #fff; /* 背景色 */
+	border: 1px solid #ccc; /* 枠線 */
+ }
+
+.serif{
+	font-family: serif; /* 明朝体に設定 */
+}

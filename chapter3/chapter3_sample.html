@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>
+			Chapter-3. CSSの参照方法と書式
+		</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./sample.css">
+	</head>
+	<body>
+		※Chapter-2のデータで修飾をしてみることにする<br>
+		<p class="underline">とりあえずサイズのお勉強から</p>
+		<h1 class="h1-red">これはh1サイズ(あか)</h1>
+		<h2 class="h2-green">これはh2サイズ(あお)</h2>
+		<h3 class="h3-blue">これはh3サイズ(みどり)</h3>
+		<h4 class="serif">これはh4サイズ(明朝体)</h4>
+		<h5>これはh5サイズ</h5>
+		<h6>これはh6サイズ</h6>
+
+		<h2>段落</h2>
+		<p>
+			段落出来てるかな
+			恐らくchromeじゃわかりずらいのかもしれぬ
+		</p>
+
+		↑改行はされていなかったので<br>
+		↓brタグ入れてみる
+		<p>
+			段落出来てるかな<br>
+			恐らくchromeじゃわかりずらいのかもしれぬ
+		</p>
+
+		↑できた<br>
+
+		<h2 class="css-square">続いてリンク(文字囲い)</h2>
+		<p class="kakomi-box1">
+			(段落囲い)<br>
+			<a href="https://github.com/herp-vt/">herp-vtさんのgithub (同ウィンドウ)</a><br>
+			<a href="https://google.com/" target=_blank>Google検索の画面 (新規ウィンドウ)</a><br>
+		</p>	
+
+		<h2>画像表示</h2>
+		<img src="./img/github_icon.png" alt="githubのアイコンが出てる">
+		<img src="./img/github_icon.jpgz" alt="あえてファイル名間違えてみた図">
+
+		<h2>コメント</h2>
+		<p>
+			この下にコメント文を書くぞ<br>
+			<!-- ドロン！まぁ見えないやろ --><br>
+			↑読めるかな？<br>
+		</p>
+
+		<h2>インラインとブロック</h2>
+		<p>
+			ブロック要素
+		</p>
+		<p>
+			表示はこんな感じ
+		</p>
+		<p>
+			インライン要素<br>
+			お問い合わせは <a href="#">こちら</a> までどうぞ。
+		</p>
+		↑確かにちょっと違う....<br>
+	</body>
+</html>
